@@ -1,0 +1,18 @@
+# Below will block microsoft updates
+# We rely on steven blacks list to block telemetry
+# https://superuser.com/questions/363120/block-access-to-windows-update
+0.0.0.0 windowsupdate.microsoft.com
+0.0.0.0 update.microsoft.com
+0.0.0.0 windowsupdate.com
+0.0.0.0 download.windowsupdate.com
+0.0.0.0 download.microsoft.com
+0.0.0.0 wustat.windows.com
+0.0.0.0 ntservicepack.microsoft.com
+0.0.0.0 stats.microsoft.com
+
+# https://docs.microsoft.com/en-us/windows/deployment/update/windows-update-troubleshooting
+0.0.0.0 prod.do.dsp.mp.microsoft.com
+0.0.0.0 emdl.ws.microsoft.com
+0.0.0.0 dl.delivery.mp.microsoft.com
+0.0.0.0 delivery.mp.microsoft.com
+0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
